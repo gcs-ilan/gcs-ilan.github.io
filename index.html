@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello World</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url("ipad-pro-screen.jpg");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.ipad-pro {
+			position: relative;
+			width: 50%;
+			height: auto;
+			margin: 0 auto;
+			top: 50px;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: calc(100% - 20px);
+			background-color: #fff;
+			padding: 2rem;
+			border-radius: 10px;
+		}
+
+		.title {
+			font-size: 3rem;
+			font-weight: bold;
+			margin-bottom: 2rem;
+		}
+	</style>
+</head>
+<body>
+	<div class="ipad-pro">
+		<div class="status-bar"></div>
+		<div class="container">
+			<h1 class="title">Ground Control Station</h1>
+		</div>
+	</div>
+</body>
+</html>
